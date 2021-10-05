@@ -14,6 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    dd(env('APP_URL', 'http://localhost'));
     return view('welcome');
 });
